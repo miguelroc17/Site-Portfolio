@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Miguel Rocha</title>
   <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
 </head>
 <body>
     <div class="root-container">
@@ -13,11 +14,11 @@
           <div class="naveg">
             <h2 class="titulo-naveg">Miguel Rocha</h2>
               <div id="barra-link">
-                <a> Habilidade</a>
-                <a>Portfolio</a>
-                <a>Experiencias</a>
+                <a onclick="onClickScrollTo('section-abilities')"> Habilidade</a>
+                <a onclick="onClickScrollTo('section-portfolio')">Portfolio</a>
+                <a onclick="onClickScrollTo('section-experiencias')">Experiencias</a>
               </div>
-            <button>Contato</button>
+            <button onclick="onClickScrollTo('section-contato')">Contato</button>
           </div> 
           <div class="intro">
             <div>
@@ -31,26 +32,26 @@
                 web e mobile, atuando em mais de 20 projetos.
               </p>
     
-              <button>
+              <button onclick="onClickScrollTo('section-contato')">
                 Entrar em Contato
               </button>
     
               <div class="icons-container">
                 <a>
                   <img class="icons" 
-                  src="facebook.png" 
+                  src="icons/facebook.png" 
                   alt="facebook">
                 </a>
     
                 <a>
                   <img class="icons" 
-                  src="instagram.png" 
+                  src="icons/instagram.png" 
                   alt="instagram">
                 </a>
     
                 <a>
                   <img class="icons" 
-                  src="github.png" 
+                  src="icons/github.png" 
                   alt="github">
                 </a>
               </div>
@@ -58,14 +59,14 @@
     
             <div>
               <img class="intro-img"
-               src="perfil.jpg" 
+               src="img/perfil.jpg" 
                alt="Pefil Miguel Rocha">
             </div>
           </div>
     
         </section>
         
-        <section class="mid-naveg">
+        <section class="mid-naveg" id="section-abilities">
     
           <h2>Habilidades que</h2>
           <h2 class="verde">domino.</h2>
@@ -74,7 +75,7 @@
               <div class="card-habilidade">
                 
                 <div class="icones-habilidade">
-                  <img class="icone-img" src="habilidades-gerais.png" 
+                  <img class="icone-img" src="icons/habilidades-gerais.png" 
                   alt="Gerais">
                 </div>
     
@@ -97,7 +98,7 @@
               <div class="card-habilidade">
                 
                 <div class="icones-habilidade">
-                  <img class="icone-img" src="frontend.png" 
+                  <img class="icone-img" src="icons/frontend.png" 
                   alt="frontend">
                 </div>
     
@@ -125,7 +126,7 @@
                 <div class="card-habilidade">
                   
                   <div class="icones-habilidade">
-                    <img class="icone-img" src="backend.png" 
+                    <img class="icone-img" src="icons/backend.png" 
                   alt="backend">
                 </div>
     
@@ -151,7 +152,7 @@
             </div>
         </section>
     
-        <section class="portfolio">
+        <section class="portfolio" id="section-portfolio">
             <h2>Portfolio</h2>
             <h2 class="verde">de projetos</h2>
 
@@ -159,7 +160,7 @@
               <div class="portfolio-card">
                 <a href="https://www.google.com/search?client=opera-gx&hs=RLJ&sca_esv=d161937f2a63904d&sxsrf=ADLYWIKyhp4-17n_b06k-y23tXbxSA60NA:1729046894021&q=projeto+supermercado+frontend&udm=2&fbs=AEQNm0AuaLfhdrtx2b9ODfK0pnmi046uB92frSWoVskpBryHTtShVNbk-60xlcGTvYzJ-DKSTGtJjS2FjB5pmTql0ubRQcrur8VCNRNtkKdC3ObBzKkmbLoRaBPwuLOWGy-L2SeKN5e-RaE9G50f7ELQ-7qM_eWh1264lk7KW_w1d7poKY8FoXLVFyobu_n7brwWzFssyzznMciTouWohlju3iwSe9POrA&sa=X&ved=2ahUKEwjV7avP8ZGJAxX9IrkGHbvYBE4QtKgLegQIGBAB&biw=1879&bih=928&dpr=1">
                   <img class="portfolio-img" 
-                src="projeto1.jpg" alt="Projeto 1">
+                src="img/projeto1.jpg" alt="Projeto 1">
                 </a>
 
                 <h5>
@@ -174,7 +175,7 @@
               <div class="portfolio-card">
                 <a href="https://www.google.com/search?q=projeto+livros+frontend&client=opera-gx&hs=4fy&sca_esv=d161937f2a63904d&udm=2&biw=1879&bih=928&sxsrf=ADLYWIKFrFq2y1on3EhLF7WrcxMLD84rfA%3A1729046895748&ei=bykPZ9m2LbzO5OUPxOW-sAo&ved=0ahUKEwiZqpXQ8ZGJAxU8J7kGHcSyD6YQ4dUDCBA&uact=5&oq=projeto+livros+frontend&gs_lp=Egxnd3Mtd2l6LXNlcnAiF3Byb2pldG8gbGl2cm9zIGZyb250ZW5kSIkUUKULWOkScAJ4AJABAJgBc6ABiQWqAQMwLja4AQPIAQD4AQGYAgCgAgCYAwCIBgGSBwCgB44C&sclient=gws-wiz-serp">
                   <img class="portfolio-img" 
-                src="projeto2.jpg" alt="Projeto 2">
+                src="img/projeto2.jpg" alt="Projeto 2">
                 </a>
 
                 <h5>
@@ -189,7 +190,7 @@
               <div class="portfolio-card">
                 <a href="https://www.google.com/search?client=opera-gx&hs=p2d&sca_esv=d161937f2a63904d&udm=2&sxsrf=ADLYWIKwbVJghuSZXeP7TUWKJfl-roMJtg:1729047023269&q=projeto+e+commerce+front+end&spell=1&sa=X&ved=2ahUKEwijwPyM8pGJAxW9ILkGHcEMGwcQBSgAegQIBxAB&biw=1879&bih=928&dpr=1">
                   <img class="portfolio-img" 
-                src="projeto3.jpg" alt="Projeto 3">
+                src="img/projeto3.jpg" alt="Projeto 3">
                 </a>
 
                 <h5>
@@ -203,13 +204,13 @@
             </div>
         </section>
 
-        <section class="experiencias">
+        <section class="experiencias" id="section-experiencias">
           <h2>Experiências</h2>
           <h2 class="verde">profissionais</h2>
 
           <div class="experiencias-grid">
             <div class="experiencias-card">
-              <img class="experiencias-img" src="light bulb.png" alt="Light Bulb">
+              <img class="experiencias-img" src="img/light bulb.png" alt="Light Bulb">
                 <div class="experiencias-container">
                   <h6 class="experiencias-titulo">
                     Front-end Developer
@@ -226,7 +227,7 @@
             </div>
 
             <div class="experiencias-card">
-              <img class="experiencias-img" src="leo.png" alt="Leo Madeiras">
+              <img class="experiencias-img" src="img/leo.png" alt="Leo Madeiras">
                 <div class="experiencias-container">
                   <h6 class="experiencias-titulo">
                     Front-end Developer
@@ -244,7 +245,7 @@
           </div>
         </section>
 
-        <section class="contato">
+        <section class="contato" id="section-contato">
           <h2>Como posso</h2>
           <h2 class="verde">te ajudar?</h2>
 
@@ -252,7 +253,7 @@
             Estou a disposição para ajudar o seu projeto ou sua empresa.
           </p>
           <div class="contato-item">
-            <img class="contato-icon" src="email.png" alt="email">
+            <img class="contato-icon" src="icons/email.png" alt="email">
 
             <p>
               miguelrocha@email.com
@@ -260,7 +261,7 @@
           </div>
 
           <div class="contato-item">
-            <img class="contato-icon" src="fone.png" alt="telefone">
+            <img class="contato-icon" src="icons/fone.png" alt="telefone">
 
             <p>
               (19) 998728-6039
@@ -276,19 +277,19 @@
         <div class="footer-icons">
           <a>
             <img class="icons" 
-            src="facebook.png" 
+            src="icons/facebook.png" 
             alt="facebook">
           </a>
 
           <a>
             <img class="icons" 
-            src="instagram.png" 
+            src="icons/instagram.png" 
             alt="instagram">
           </a>
 
           <a>
             <img class="icons" 
-            src="github.png" 
+            src="icons/github.png" 
             alt="github">
           </a>
         </div>
