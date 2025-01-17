@@ -32,6 +32,10 @@ h5 {
   margin: 0px;
 }
 
+a {
+  color: #1e1e1e;
+}
+
 footer {
   display: flex;
   width: 100vw;
@@ -134,8 +138,8 @@ button {
 
 .intro-img {
   width: 542px;
-  height: 594px;
-  border-width: 6px;
+  height: 100%;
+  border-width: 4px;
   border-style: solid;
   border-radius: 40px;
   border-color: #219653;
@@ -347,6 +351,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 18px;
 }
 
 .contato-icon {
