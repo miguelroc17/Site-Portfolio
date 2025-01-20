@@ -1,0 +1,61 @@
+@media only screen and (max-device-width: 450px) {
+  .cabeçalio {
+    height: auto;
+    padding-bottom: 48px;
+  }
+
+  .content-container {
+    width: 96vw;
+    max-width: 96vw;
+  }
+  
+  .naveg {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .barra-link {
+    display: none;
+  }
+  
+  .intro {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro-img {
+    width: 50vw;
+  }
+
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+  }
+  
+  .container-habilidade {
+    row-gap: 36px;
+    grid-template-columns: auto;
+    margin-top: 12px;
+  }
+
+
+  .portfolio-grid {
+    row-gap: 36px;
+    grid-template-columns: auto;
+    margin-top: 24px;
+  }
+
+  .experiencias-card {
+    width: 90vw;
+  }
+
+  .footerCl {
+    width: 100%;
+  }
+}

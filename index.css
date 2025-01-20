@@ -36,15 +36,6 @@ a {
   color: #1e1e1e;
 }
 
-footer {
-  display: flex;
-  width: 100vw;
-  height: 156px;
-  background-color: #d9d9d9;
-  align-items: center;
-  justify-content: center;
-}
-
 .root-container {
   display: flex;
   width: 100%;
@@ -61,12 +52,12 @@ footer {
 }
 
 .cabeçalio {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: flex-start;
-width: 100%;
-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 90vh;
 }
 
 .naveg {
@@ -79,7 +70,7 @@ height: 90vh;
   margin-top: 64px;
 }
 
-#barra-link {
+.barra-link {
   display: flex;
   width: 300px;
   height: 72px;
@@ -92,10 +83,10 @@ height: 90vh;
 }
 
 .titulo-naveg {
-color: #1e1e1e;
-font-size: 24px;
-letter-spacing: 0.015rem;
-font-weight: bold;
+  color: #1e1e1e;
+  font-size: 24px;
+  letter-spacing: 0.015rem;
+  font-weight: bold;
 }
 
 button {
@@ -360,7 +351,16 @@ li {
   margin-right: 8px;
 }
 
-.footer {
+footer {
+  display: flex;
+  width: 100vw;
+  height: 156px;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerCl {
   display: flex;
   flex-direction: row;
   width: 1216px;
