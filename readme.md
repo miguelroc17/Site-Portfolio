@@ -13,3 +13,23 @@ The main goal is create a website with my main professional observation.
 - Dom manipulation
 - Events
 - CSS Media Query
+
+## Instruction to run:
+
+1. Clone the project:
+
+```
+git clone https://github.com/miguelroc17/Site-Portfolio.git
+```
+
+2. After clone open the folder:
+
+```
+site-portfolio
+```
+
+3. Open the index file with the browser:
+
+```
+index.html
+```
