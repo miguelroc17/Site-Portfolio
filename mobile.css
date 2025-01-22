@@ -17,16 +17,28 @@
   .barra-link {
     display: none;
   }
+
+  .intro-title {
+    font-size: 35px;
+    margin-top: 12px;
+  }
+
+  .intro-paraf {
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+  }
   
   .intro {
     width: 100%;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
   }
   
   .intro-img {
-    width: 50vw;
+    width: 250px;
   }
 
   .intro-text {
@@ -37,25 +49,49 @@
     width: 100%;
     margin-top: 24px;
   }
+
+  h2 {
+    line-height: 50px;
+    font-size: 45px;
+  }
+
   
   .container-habilidade {
     row-gap: 36px;
     grid-template-columns: auto;
-    margin-top: 12px;
+    margin-top: 30px;
   }
-
+  
+  .title-portfolio {
+    line-height: 50px;
+    font-size: 62px;
+  }
 
   .portfolio-grid {
     row-gap: 36px;
     grid-template-columns: auto;
-    margin-top: 24px;
+    margin-top: 50px;
+  }
+
+  .experiencias {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .experiencias-grid {
+    margin-top: 10px;
   }
 
   .experiencias-card {
-    width: 90vw;
+    width: 80vw;
+  }
+
+  .contato {
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .footerCl {
-    width: 100%;
+    width: 94vw;
   }
 }
